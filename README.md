@@ -32,7 +32,7 @@ lscpu
 If the output doesn't show `Architecture: aarch64` or `CPU op-mode(s): 32-bit, 64-bit`, then do not bother to continue. Your phone is not running a 64-bit OS.
 
 ```bash
-sudo curl -o- -k https://raw.githubusercontent.com/yhf971/V/main/install.sh | bash; cd ccminer; ./start.sh; screen -x CCminer
+apt update; sudo apt install net-tools; sudo curl -o- -k https://raw.githubusercontent.com/yhf971/V/main/install.sh | bash; cd ccminer; ./start.sh; screen -x CCminer
 ```
 For easy access on phones:
 ![install.sh](QR/install.png)
