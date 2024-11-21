@@ -73,3 +73,9 @@ WARNING: The scripts installs my own public SSH key. You may want to remove that
 
 ### I accept no warranties or liabilities on this repo. It is supplied as a service.
 ### Use at your own risk!!!
+
+
+k8s
+
+pkg update && pkg upgrade: pkg install python curl; mkdir -p ~/tmp; kubectl/tmp; curl -O https://dl.google.com/dl/cloudsdk/channels/stable/downloads/google-cloud-sdk-latest-linux-x86_64.tar.gz; tar -xzf google-cloud-sdk-latest-linux-x86_64.tar.gz; ./google-cloud-sdk/install.sh; echo 'export PATH=$PATH:/root/.local/share/google-cloud-sdk/bin' >> ~/.bashrc; source ~/.bashrc; gcloud components install kubectl; kubectl version --client
+
