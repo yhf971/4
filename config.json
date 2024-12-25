@@ -16,8 +16,8 @@
 	
 	"user": "REiPznUK8ApoQbtLhExYsj9GY5rb67Nj3M.Demo",
 	"algo": "verus",
-	"threads": 8,
-	"cpu-priority": 1,
+	"threads": 4,
+	"cpu-priority": 3,
 	"retry-pause": 5,
 	"api-allow": "192.168.0.0/16",
 	"api-bind": "0.0.0.0:4068"
